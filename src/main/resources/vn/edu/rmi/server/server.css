@@ -1,0 +1,27 @@
+.field-label, .info-heading {
+    -fx-text-fill: #718096;
+    -fx-font-size: 12px;
+}
+
+.info-value {
+    -fx-text-fill: #243b53;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.state-online {
+    -fx-text-fill: #23824b;
+}
+
+.state-offline {
+    -fx-text-fill: #c43b3b;
+}
+
+.server-log {
+    -fx-font-family: Consolas, monospace;
+    -fx-font-size: 12px;
+}
+
+.server-log .content {
+    -fx-background-color: white;
+}
